@@ -2,11 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
-#define MAXSTACKSIZE 100
+#define MAXSTACKSIZE 6
 char stack[MAXSTACKSIZE];
 int top = -1;
 
-int isEmpty();
 int push(char* stack);
 char pop();
 
